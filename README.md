@@ -30,6 +30,7 @@ rails -v '5.1.3'
 /* my_command's path
 rails g model Item title:string description:text
 rails g controller Items
+rails g migration add_user_id_to_items user_id:integer
 
 /* extra gems
 gem 'simple_form', '~> 3.5'
