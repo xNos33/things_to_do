@@ -13,12 +13,13 @@
  *= require_tree .
  *= require_self
  */
-/*@import url(http://fonts.googleapis.com/css?family=Oswald:400,700|Merriweather:400,300);*/ 
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700|Merriweather:400,300);
+@import "font-awesome-sprockets";
+@import "font-awesome";
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "normalize";
-@import "font-awesome-sprockets";
-@import "font-awesome";
+
 
 
 /*html, body {
