@@ -31,6 +31,7 @@ rails -v '5.1.3'
 rails g model Item title:string description:text
 rails g controller Items
 rails g migration add_user_id_to_items user_id:integer
+rails g migration add_completed_at_to_items completed_at:datetime
 
 /* extra gems
 gem 'simple_form', '~> 3.5'
