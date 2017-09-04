@@ -22,9 +22,9 @@
 
 
 
-/*html, body {
+html, body {
 	font-family: 'Permanent Marker', cursive;
-}*/
+}
 /* Mixins, variables, etc... */
 
 @mixin nav_link_hover {
@@ -37,10 +37,9 @@
 
 body {
 	font-family: 'Permanent Marker', cursive;
-	background-color: #aaaa55;
-	/*background-image: url("img.png");
-	background-repeat: no-repeat;
-	background-size: 100% 210%;*/
+	background-color: #bfbfbf;
+
+
 }
 
 
@@ -49,13 +48,51 @@ a {
 }
 
 .jumbotron {
+	padding: 8em;
 	text-align: center;
+	font-family: 'Courgette', cursive;
+	background-image: url("plan4.png");
+	background-repeat: no-repeat;
+	background-size: 100% 160%;
+
 }
 
+#page_wrapper {
+	padding: 3em;
+	#profile_image {
+
+		width: 300px;
+		float: left;
+		margin-right: 2em;
+		img {
+			width: 100%;
+			border-radius: 0.35em;
+		}
+		}
+	#content {
+		h1 {
+			font-weight: 500;
+			font-family: 'Courgette', cursive;
+		}
+		p {
+			font-size: 1.1em;
+			line-height: 1.75;
+			font-family: 'Courgette', cursive;
+				
+		}
+		a {
+			color: #33acb7;
+			font-weight: 700;
+			text-decoration: none;
+			font-family: 'Courgette', cursive;
+		}
+	}
+}
 /* Navbar and navigation styles */
 
 .navbar {
-	font-family: 'Permanent Marker', cursive;
+	/*done!*/
+	font-family: 'Faster One', cursive;
 	text-transform: uppercase;
 }
 
@@ -63,7 +100,7 @@ a {
 
 	padding-top: 5px;
 	padding-bottom: 5px;
-	background-color: #009900;
+	background-color: #ff0000;
 
 	.navbar-nav > li > a {
 		color: #FFF;
@@ -87,19 +124,24 @@ a {
 	border-bottom: 1px solid #00e600;
 	padding-bottom: 1.5em;
 	.item-title {
-		font-family: 'Lato', sans-serif;
+		font-family: 'Courgette', cursive;
+		font-size: 3em;
+		font-color: #33acb7;
 		margin-top: 0;
 	}
 	.item-desc {
-		font-size: 1em;
+		font-size: 1.5em;
+		font-family: 'Courgette', cursive;
 	}
 	.time-ago {
-		color: darken(#e7e7e7, 50%);
+		color: #7cfc00;
 		font-size: 0.55em;
 		letter-spacing: 1.25;
+		font-family: 'Courgette', cursive;
 	}
 	.item-sub-title {
 		margin-bottom: 0;
+		font-family: 'Courgette', cursive;
 	}
 }
 
@@ -111,21 +153,21 @@ a {
 	text-align: center;
 	padding: 7.5rem 0;
 	h2 {
-		color: #00e600;
+		color: #7cfc00;
 		font-size: 3rem;
 		margin: 0;
 	}
 	p {
 			font-size: 1.25rem;
 			margin: 0 0 2.5rem 0;
-			color: #00e600;
+			color: #7cfc00;
 		}
 }
 
 .testimonial {
 	text-align: center;
 	font-size: 1.5rem;
-	color: #afb0b0;
+	color: #7cfc00;
 	padding: 3.5rem 0;
 	.quote {
 		margin: 0 0 .5rem 0;
@@ -160,3 +202,8 @@ button, .button {
 	color: #FFF;
 	
 }
+
+/*.background_image_welcome_page {
+	background: url(/assets/plan.jpg);
+
+} */

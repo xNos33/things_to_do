@@ -39,3 +39,7 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem 'devise', '~> 4.3'
 gem 'font-awesome-sass', '~> 4.7'
+
+/* fonts
+font-family: 'Monoton', cursive;
+font-family: 'Sacramento', cursive;
